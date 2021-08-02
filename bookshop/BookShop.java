@@ -7,7 +7,7 @@ import java.sql.SQLException;
 
 public class BookShop {
 
-    private final BufferedReader input;
+    private BufferedReader input;
 
     public BookShop() {
         input = new BufferedReader(new InputStreamReader(System.in));
