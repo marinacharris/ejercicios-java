@@ -36,9 +36,6 @@ public class App extends JFrame{
         JScrollPane scrollPane = new JScrollPane(tabla);
         add(scrollPane);
 
-
-
-
     }
     public static void main(String[] args) throws Exception {
         App ventana = new App();
@@ -46,7 +43,6 @@ public class App extends JFrame{
         ventana.setVisible(true);
         ventana.setDefaultCloseOperation(EXIT_ON_CLOSE);
         ventana.setLocationRelativeTo(null);
-
 
     }
 }
